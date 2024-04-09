@@ -1,0 +1,14 @@
+eureka.client.serverUrl.defaultZone=http://localhost:8761/eureka/
+spring.application.name=api-gateway
+server.port=8080
+spring.cloud.gateway.routes[0].id=demo-service
+spring.cloud.gateway.routes[0].uri=lb://demo-service
+spring.cloud.gateway.routes[0].predicates[0]=Path=/api/**
+logging.level.org.springframework.cloud.gateway=DEBUG
+logging.level.org.springframework=debug
+eureka.instance.prefer-ip-address=true
+
+#server.servlet.context-path=/api
+
+
+#http://localhost:8084/

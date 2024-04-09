@@ -1,0 +1,12 @@
+310mca23
+
+
+
+
+
+<!--                <input style="color:black;font-weight:800;font-size:20px;" type="submit"value="SUBMIT">-->
+
+
+var studentId=document.getElementById("hostel").value;
+       var url = '/hostel-fees/hostelstudent/'+encodeURIComponent(studentId);
+       window.location.href=url

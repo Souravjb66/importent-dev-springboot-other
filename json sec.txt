@@ -1,0 +1,28 @@
+{
+   
+    "m":[
+    {
+        "name":"redmi7",
+        "price":12000
+    },
+    {
+        "name":"redmi10",
+        "price":15000
+    },
+    {
+        "name":"realme7",
+        "price":15000
+    },
+    {
+        "name":"poco m2",
+        "price":13000
+    }
+
+],
+"ph":{
+    "type":"iphone"
+   }
+
+
+
+}

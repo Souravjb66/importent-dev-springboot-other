@@ -1,0 +1,33 @@
+ @ManyToMany
+    @JoinTable(
+        name = "buyer_product",
+        joinColumns = @JoinColumn(name = "buyer_id"),
+        inverseJoinColumns = @JoinColumn(name = "product_id")
+    )
+    private List<ProductInstance> products;
+
+
+
+
+
+In a many-to-many relationship mapping using JPA, joinColumns and
+ inverseJoinColumns are used within the @JoinTable annotation to specify the 
+columns that represent the foreign keys in the join table. Here's the 
+difference between them:
+
+joinColumns:
+
+joinColumns refers to the columns in the join table that represent the foreign 
+key columns which are associated with the owning side of the relationship 
+(the side where you define the @JoinTable annotation).
+In the context of a many-to-many relationship, joinColumns represent the 
+foreign key columns that reference the primary key of the entity where you
+ define the @JoinTable annotation.
+inverseJoinColumns:
+
+inverseJoinColumns refers to the columns in the join table that represent the
+ foreign key columns which are associated with the inverse side of the 
+relationship (the side opposite to the owning side).
+In the context of a many-to-many relationship, inverseJoinColumns represent 
+the foreign key columns that reference the primary key of the other entity 
+involved in the relationship.

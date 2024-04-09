@@ -1,0 +1,40 @@
+{
+    "dbquest":{
+        "Qid":2,
+        "type":"java",
+        "question":"where java is used most?"
+    },
+    "dbans":{
+        "Aid":2,
+        "type":"java",
+        "answer":"java is use for application development."
+    }
+ "dbquest":{
+        "Qid":2,
+        "type":"python",
+        "question":"where python is used most?"
+    },
+    "dbans":{
+        "Aid":2,
+        "type":"python",
+        "answer":"python is use for data science."
+    },
+
+
+    "dbquest":{
+        
+        "type":"kotlin",
+        "question":"where python is used most?"
+    },
+    "dbans":{
+       
+        "type":"kotlin",
+        "answer":"kotlin is java upgraded version it can use in any java field."
+    }
+        
+   
+
+
+        
+   
+}

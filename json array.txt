@@ -1,0 +1,28 @@
+{
+    "name":"MCA",
+    "fees":100000,
+    "students":[
+        {
+            "name":"rishav",
+            "unique":"310mca23"
+        },
+        {
+            "name":"hirok",
+            "unique":"321mca23"
+
+        },
+        {
+            "name":"bhargav",
+            "unique":"320mca23"
+        },
+        {
+            "name":"rohan",
+            "unique":"319mca23"
+
+        }
+    ]
+    
+
+
+
+}
